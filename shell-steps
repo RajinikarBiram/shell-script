@@ -30,6 +30,7 @@ git push -u origin main
 **git status | run only in git repo location
 **git config --credential.helper store /saves token and won't ask again
 **.config from local C drive is where the user email address and username is saved
-
+ 
+git add . ; git commit -m "pushing the script" ; git push -u origin main
 
 
