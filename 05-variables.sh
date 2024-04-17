@@ -4,5 +4,5 @@ echo "Please enter username ::"
 read USERNAME #here username is variable
 echo "Please enter password ::"
 read PASSWORD
-echo "username=$USERNAME, password=$PASSWORD"
+echo "username is : $USERNAME, password is : $PASSWORD"
 
