@@ -1,0 +1,35 @@
+** steps:**
+*create repo in Github*
+*clone repo in local laptop*
+*start developing*
+*add the files to temp area*
+
+""
+git add <file-name>
+""
+commit the changes 
+
+""
+**git commit -m "why you commited this"
+""
+**If it asks to enter email address and username**
+""
+git config --global user.email "<emai address>"
+
+""
+""
+git config --global user.name "<username>"
+""
+**push the changes to Github/central repo
+git push -u origin main
+
+**Here login to Github with token**
+
+**naming connection : use small case with Hyphons(-). No spaces**
+
+**git status | run only in git repo location
+**git config --credential.helper store /saves token and won't ask again
+**.config from local C drive is where the user email address and username is saved
+
+
+
