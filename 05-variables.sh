@@ -1,6 +1,8 @@
 #!/bin/bash
 
 echo "Please enter username ::"
-read username #here username is variable
+read USERNAME #here username is variable
 echo "Please enter password ::"
-read password
+read PASSWORD
+echo "username=$USERNAME, password=$PASSWORD"
+
