@@ -6,6 +6,7 @@ LOGFILE=/tmp/$SCRIPT_NAME-$TIMESTAMP.log
 R="\e[31m"
 G="\e[32m"
 N="\e[0m"
+
 VALIDATE(){
     if[$1 -ne 0]
     then
@@ -15,6 +16,7 @@ VALIDATE(){
     echo -e "$2..$G SUCCESS $N"
 	fi
 }
+
 if [$USERID -ne 0]
 then 
    echo "Please run this script with root access"
@@ -22,5 +24,6 @@ then
 else
    echo " You are a super user"
 fi 
+
 dnf install mysql -y &>>$LOGFILE
 VALIDATE $? "Installing MYSQL"
